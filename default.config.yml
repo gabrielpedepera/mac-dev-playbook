@@ -6,7 +6,7 @@ configure_terminal: yes
 configure_osx: yes
 
 configure_sudoers: no
-sudoers_custom_config: ''
+sudoers_custom_config: ""
 # Example:
 # sudoers_custom_config: |
 #   # Allow users in admin group to use sudo with no password.
@@ -27,6 +27,7 @@ homebrew_installed_packages:
   - autojump
   - autoconf
   - bash-completion
+  - clipy
   - doxygen
   - gettext
   - gifsicle
@@ -42,7 +43,6 @@ homebrew_installed_packages:
   - nmap
   - node
   - nvm
-  - php
   - rbenv
   - ssh-copy-id
   - cowsay
@@ -62,12 +62,9 @@ homebrew_cask_apps:
   - docker
   - dropbox
   - firefox
-  - handbrake
   - licecap
   - sequel-pro
   - slack
-  - sublime-text
-  - transmit
 
 # See `geerlingguy.mas` role documentation for usage instructions.
 mas_installed_apps: []
